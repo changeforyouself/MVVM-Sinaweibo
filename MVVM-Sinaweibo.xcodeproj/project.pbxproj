@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		797F6F8C3996AE2D702D5A30 /* libPods-MVVM-Sinaweibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DE3CEF5CF479CD92F63F5F /* libPods-MVVM-Sinaweibo.a */; };
+		FC43D81020B1724900F218B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D80F20B1724900F218B3 /* AppDelegate.swift */; };
+		FC43D81720B1724A00F218B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC43D81620B1724A00F218B3 /* Assets.xcassets */; };
+		FC43D84D20B173C300F218B3 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82620B173C300F218B3 /* UIColor+CZAddition.m */; };
+		FC43D84E20B173C300F218B3 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82720B173C300F218B3 /* UIView+CZAddition.m */; };
+		FC43D84F20B173C300F218B3 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82A20B173C300F218B3 /* UIScreen+CZAddition.m */; };
+		FC43D85020B173C300F218B3 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82C20B173C300F218B3 /* UILabel+CZAddition.m */; };
+		FC43D85120B173C300F218B3 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82E20B173C300F218B3 /* NSString+CZBase64.m */; };
+		FC43D85220B173C300F218B3 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D82F20B173C300F218B3 /* NSString+CZPath.m */; };
+		FC43D85320B173C300F218B3 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83220B173C300F218B3 /* UIButton+CZAddition.m */; };
+		FC43D85420B173C300F218B3 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83520B173C300F218B3 /* NSObject+CZRuntime.m */; };
+		FC43D85520B173C300F218B3 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83820B173C300F218B3 /* UIViewController+CZAddition.m */; };
+		FC43D85620B173C300F218B3 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83920B173C300F218B3 /* NSString+CZHash.m */; };
+		FC43D85720B173C300F218B3 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83C20B173C300F218B3 /* NSAttributedString+CZAdditon.m */; };
+		FC43D85820B173C300F218B3 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43D83D20B173C300F218B3 /* NSArray+Log.m */; };
+		FC43D85920B173C300F218B3 /* YCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84220B173C300F218B3 /* YCHomeViewController.swift */; };
+		FC43D85A20B173C300F218B3 /* YCDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84420B173C300F218B3 /* YCDiscoverViewController.swift */; };
+		FC43D85B20B173C300F218B3 /* YCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84620B173C300F218B3 /* YCMessageViewController.swift */; };
+		FC43D85C20B173C300F218B3 /* YCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84820B173C300F218B3 /* YCProfileViewController.swift */; };
+		FC43D85D20B173C300F218B3 /* YCNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84A20B173C300F218B3 /* YCNavigationVC.swift */; };
+		FC43D85E20B173C300F218B3 /* YCBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84B20B173C300F218B3 /* YCBaseVC.swift */; };
+		FC43D85F20B173C300F218B3 /* YCTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84C20B173C300F218B3 /* YCTabBarVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382D53CF837DD3EF12DC31C9 /* Pods-MVVM-Sinaweibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-Sinaweibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-Sinaweibo/Pods-MVVM-Sinaweibo.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CB4F40501F34B284CB372E /* Pods-MVVM-Sinaweibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-Sinaweibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-Sinaweibo/Pods-MVVM-Sinaweibo.release.xcconfig"; sourceTree = "<group>"; };
+		F0DE3CEF5CF479CD92F63F5F /* libPods-MVVM-Sinaweibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM-Sinaweibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC43D80C20B1724900F218B3 /* MVVM-Sinaweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Sinaweibo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC43D80F20B1724900F218B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC43D81620B1724A00F218B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC43D81B20B1724A00F218B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC43D82120B1726F00F218B3 /* Weibo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-Bridge.h"; sourceTree = "<group>"; };
+		FC43D82620B173C300F218B3 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D82720B173C300F218B3 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D82820B173C300F218B3 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D82920B173C300F218B3 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		FC43D82A20B173C300F218B3 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D82B20B173C300F218B3 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D82C20B173C300F218B3 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D82D20B173C300F218B3 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		FC43D82E20B173C300F218B3 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		FC43D82F20B173C300F218B3 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		FC43D83020B173C300F218B3 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		FC43D83120B173C300F218B3 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		FC43D83220B173C300F218B3 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D83320B173C300F218B3 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D83420B173C300F218B3 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D83520B173C300F218B3 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		FC43D83620B173C300F218B3 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D83720B173C300F218B3 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		FC43D83820B173C300F218B3 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		FC43D83920B173C300F218B3 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		FC43D83A20B173C300F218B3 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		FC43D83B20B173C300F218B3 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		FC43D83C20B173C300F218B3 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		FC43D83D20B173C300F218B3 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		FC43D83E20B173C300F218B3 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		FC43D84220B173C300F218B3 /* YCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCHomeViewController.swift; sourceTree = "<group>"; };
+		FC43D84420B173C300F218B3 /* YCDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCDiscoverViewController.swift; sourceTree = "<group>"; };
+		FC43D84620B173C300F218B3 /* YCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCMessageViewController.swift; sourceTree = "<group>"; };
+		FC43D84820B173C300F218B3 /* YCProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileViewController.swift; sourceTree = "<group>"; };
+		FC43D84A20B173C300F218B3 /* YCNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCNavigationVC.swift; sourceTree = "<group>"; };
+		FC43D84B20B173C300F218B3 /* YCBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCBaseVC.swift; sourceTree = "<group>"; };
+		FC43D84C20B173C300F218B3 /* YCTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTabBarVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC43D80920B1724900F218B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797F6F8C3996AE2D702D5A30 /* libPods-MVVM-Sinaweibo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DC2C003496FA222678AE2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE3CEF5CF479CD92F63F5F /* libPods-MVVM-Sinaweibo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C3B8EEB51E2805979B91E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				382D53CF837DD3EF12DC31C9 /* Pods-MVVM-Sinaweibo.debug.xcconfig */,
+				D4CB4F40501F34B284CB372E /* Pods-MVVM-Sinaweibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC43D80320B1724900F218B3 = {
+			isa = PBXGroup;
+			children = (
+				FC43D80E20B1724900F218B3 /* MVVM-Sinaweibo */,
+				FC43D80D20B1724900F218B3 /* Products */,
+				F7C3B8EEB51E2805979B91E0 /* Pods */,
+				D2DC2C003496FA222678AE2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC43D80D20B1724900F218B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D80C20B1724900F218B3 /* MVVM-Sinaweibo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC43D80E20B1724900F218B3 /* MVVM-Sinaweibo */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D82220B173C300F218B3 /* Classes */,
+				FC43D86020B173D600F218B3 /* Other */,
+			);
+			path = "MVVM-Sinaweibo";
+			sourceTree = "<group>";
+		};
+		FC43D82220B173C300F218B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D82320B173C300F218B3 /* ViewModel */,
+				FC43D82420B173C300F218B3 /* Tools */,
+				FC43D83F20B173C300F218B3 /* Model */,
+				FC43D84020B173C300F218B3 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC43D82320B173C300F218B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC43D82420B173C300F218B3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D82520B173C300F218B3 /* Additions */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FC43D82520B173C300F218B3 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D82620B173C300F218B3 /* UIColor+CZAddition.m */,
+				FC43D82720B173C300F218B3 /* UIView+CZAddition.m */,
+				FC43D82820B173C300F218B3 /* UIButton+CZAddition.h */,
+				FC43D82920B173C300F218B3 /* NSString+CZHash.h */,
+				FC43D82A20B173C300F218B3 /* UIScreen+CZAddition.m */,
+				FC43D82B20B173C300F218B3 /* UIViewController+CZAddition.h */,
+				FC43D82C20B173C300F218B3 /* UILabel+CZAddition.m */,
+				FC43D82D20B173C300F218B3 /* NSObject+CZRuntime.h */,
+				FC43D82E20B173C300F218B3 /* NSString+CZBase64.m */,
+				FC43D82F20B173C300F218B3 /* NSString+CZPath.m */,
+				FC43D83020B173C300F218B3 /* NSArray+Log.h */,
+				FC43D83120B173C300F218B3 /* NSAttributedString+CZAdditon.h */,
+				FC43D83220B173C300F218B3 /* UIButton+CZAddition.m */,
+				FC43D83320B173C300F218B3 /* UIView+CZAddition.h */,
+				FC43D83420B173C300F218B3 /* UIColor+CZAddition.h */,
+				FC43D83520B173C300F218B3 /* NSObject+CZRuntime.m */,
+				FC43D83620B173C300F218B3 /* UILabel+CZAddition.h */,
+				FC43D83720B173C300F218B3 /* UIScreen+CZAddition.h */,
+				FC43D83820B173C300F218B3 /* UIViewController+CZAddition.m */,
+				FC43D83920B173C300F218B3 /* NSString+CZHash.m */,
+				FC43D83A20B173C300F218B3 /* NSString+CZBase64.h */,
+				FC43D83B20B173C300F218B3 /* CZAdditions.h */,
+				FC43D83C20B173C300F218B3 /* NSAttributedString+CZAdditon.m */,
+				FC43D83D20B173C300F218B3 /* NSArray+Log.m */,
+				FC43D83E20B173C300F218B3 /* NSString+CZPath.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		FC43D83F20B173C300F218B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC43D84020B173C300F218B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84120B173C300F218B3 /* Home */,
+				FC43D84320B173C300F218B3 /* Discover */,
+				FC43D84520B173C300F218B3 /* Message */,
+				FC43D84720B173C300F218B3 /* Profile */,
+				FC43D84920B173C300F218B3 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC43D84120B173C300F218B3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84220B173C300F218B3 /* YCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC43D84320B173C300F218B3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84420B173C300F218B3 /* YCDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FC43D84520B173C300F218B3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84620B173C300F218B3 /* YCMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FC43D84720B173C300F218B3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84820B173C300F218B3 /* YCProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC43D84920B173C300F218B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D84A20B173C300F218B3 /* YCNavigationVC.swift */,
+				FC43D84B20B173C300F218B3 /* YCBaseVC.swift */,
+				FC43D84C20B173C300F218B3 /* YCTabBarVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FC43D86020B173D600F218B3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FC43D81B20B1724A00F218B3 /* Info.plist */,
+				FC43D80F20B1724900F218B3 /* AppDelegate.swift */,
+				FC43D82120B1726F00F218B3 /* Weibo-Bridge.h */,
+				FC43D81620B1724A00F218B3 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC43D80B20B1724900F218B3 /* MVVM-Sinaweibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC43D81E20B1724A00F218B3 /* Build configuration list for PBXNativeTarget "MVVM-Sinaweibo" */;
+			buildPhases = (
+				8B685DEE6C92F1580A5169B8 /* [CP] Check Pods Manifest.lock */,
+				FC43D80820B1724900F218B3 /* Sources */,
+				FC43D80920B1724900F218B3 /* Frameworks */,
+				FC43D80A20B1724900F218B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-Sinaweibo";
+			productName = "MVVM-Sinaweibo";
+			productReference = FC43D80C20B1724900F218B3 /* MVVM-Sinaweibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC43D80420B1724900F218B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yidaoyongche;
+				TargetAttributes = {
+					FC43D80B20B1724900F218B3 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FC43D80720B1724900F218B3 /* Build configuration list for PBXProject "MVVM-Sinaweibo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC43D80320B1724900F218B3;
+			productRefGroup = FC43D80D20B1724900F218B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC43D80B20B1724900F218B3 /* MVVM-Sinaweibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC43D80A20B1724900F218B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43D81720B1724A00F218B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B685DEE6C92F1580A5169B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM-Sinaweibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC43D80820B1724900F218B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43D85520B173C300F218B3 /* UIViewController+CZAddition.m in Sources */,
+				FC43D85820B173C300F218B3 /* NSArray+Log.m in Sources */,
+				FC43D85B20B173C300F218B3 /* YCMessageViewController.swift in Sources */,
+				FC43D84F20B173C300F218B3 /* UIScreen+CZAddition.m in Sources */,
+				FC43D85A20B173C300F218B3 /* YCDiscoverViewController.swift in Sources */,
+				FC43D85220B173C300F218B3 /* NSString+CZPath.m in Sources */,
+				FC43D85620B173C300F218B3 /* NSString+CZHash.m in Sources */,
+				FC43D85420B173C300F218B3 /* NSObject+CZRuntime.m in Sources */,
+				FC43D85E20B173C300F218B3 /* YCBaseVC.swift in Sources */,
+				FC43D81020B1724900F218B3 /* AppDelegate.swift in Sources */,
+				FC43D85D20B173C300F218B3 /* YCNavigationVC.swift in Sources */,
+				FC43D85320B173C300F218B3 /* UIButton+CZAddition.m in Sources */,
+				FC43D85120B173C300F218B3 /* NSString+CZBase64.m in Sources */,
+				FC43D85020B173C300F218B3 /* UILabel+CZAddition.m in Sources */,
+				FC43D85720B173C300F218B3 /* NSAttributedString+CZAdditon.m in Sources */,
+				FC43D85C20B173C300F218B3 /* YCProfileViewController.swift in Sources */,
+				FC43D85F20B173C300F218B3 /* YCTabBarVC.swift in Sources */,
+				FC43D84D20B173C300F218B3 /* UIColor+CZAddition.m in Sources */,
+				FC43D85920B173C300F218B3 /* YCHomeViewController.swift in Sources */,
+				FC43D84E20B173C300F218B3 /* UIView+CZAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC43D81C20B1724A00F218B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC43D81D20B1724A00F218B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC43D81F20B1724A00F218B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382D53CF837DD3EF12DC31C9 /* Pods-MVVM-Sinaweibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = "MVVM-Sinaweibo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MVVM-Sinaweibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVVM-Sinaweibo/Other/Weibo-Bridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC43D82020B1724A00F218B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CB4F40501F34B284CB372E /* Pods-MVVM-Sinaweibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = "MVVM-Sinaweibo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MVVM-Sinaweibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVVM-Sinaweibo/Other/Weibo-Bridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC43D80720B1724900F218B3 /* Build configuration list for PBXProject "MVVM-Sinaweibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC43D81C20B1724A00F218B3 /* Debug */,
+				FC43D81D20B1724A00F218B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC43D81E20B1724A00F218B3 /* Build configuration list for PBXNativeTarget "MVVM-Sinaweibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC43D81F20B1724A00F218B3 /* Debug */,
+				FC43D82020B1724A00F218B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC43D80420B1724900F218B3 /* Project object */;
+}
