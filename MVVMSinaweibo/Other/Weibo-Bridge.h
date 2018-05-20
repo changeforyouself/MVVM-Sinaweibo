@@ -9,5 +9,7 @@
 #ifndef Weibo_Bridge_h
 #define Weibo_Bridge_h
 
+#import "CZAdditions.h"
+
 
 #endif /* Weibo_Bridge_h */

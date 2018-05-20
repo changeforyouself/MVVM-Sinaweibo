@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        
+        
+        let bundleName = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String ?? ""
+        let str = bundleName + "." + "LYCViewController"
+        let cls = NSClassFromString(str) as?UIViewController.Type
+        
+        
+        
         window = UIWindow()
         window?.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         window?.rootViewController = YCTabBarVC()
