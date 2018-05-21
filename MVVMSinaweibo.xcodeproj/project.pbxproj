@@ -29,7 +29,10 @@
 		FC43D85D20B173C300F218B3 /* YCNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84A20B173C300F218B3 /* YCNavigationVC.swift */; };
 		FC43D85E20B173C300F218B3 /* YCBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84B20B173C300F218B3 /* YCBaseVC.swift */; };
 		FC43D85F20B173C300F218B3 /* YCTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43D84C20B173C300F218B3 /* YCTabBarVC.swift */; };
-		FC9B3CE920B188F300E760EE /* Bundle-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B3CE820B188F300E760EE /* Bundle-Extensions.swift */; };
+		FC95DF4420B2A8890087797F /* YCDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95DF4320B2A8890087797F /* YCDemoViewController.swift */; };
+		FC95DF4620B2AF440087797F /* UIBarButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95DF4520B2AF440087797F /* UIBarButton+Extensions.swift */; };
+		FC95DF4820B2B5980087797F /* YCCustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95DF4720B2B5980087797F /* YCCustomBar.swift */; };
+		FC9B3CE920B188F300E760EE /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B3CE820B188F300E760EE /* Bundle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +76,10 @@
 		FC43D84A20B173C300F218B3 /* YCNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCNavigationVC.swift; sourceTree = "<group>"; };
 		FC43D84B20B173C300F218B3 /* YCBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCBaseVC.swift; sourceTree = "<group>"; };
 		FC43D84C20B173C300F218B3 /* YCTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTabBarVC.swift; sourceTree = "<group>"; };
-		FC9B3CE820B188F300E760EE /* Bundle-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Extensions.swift"; sourceTree = "<group>"; };
+		FC95DF4320B2A8890087797F /* YCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCDemoViewController.swift; sourceTree = "<group>"; };
+		FC95DF4520B2AF440087797F /* UIBarButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButton+Extensions.swift"; sourceTree = "<group>"; };
+		FC95DF4720B2B5980087797F /* YCCustomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCCustomBar.swift; sourceTree = "<group>"; };
+		FC9B3CE820B188F300E760EE /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				FC43D84220B173C300F218B3 /* YCHomeViewController.swift */,
+				FC95DF4320B2A8890087797F /* YCDemoViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -266,7 +273,9 @@
 		FC43D86120B17DD600F218B3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FC9B3CE820B188F300E760EE /* Bundle-Extensions.swift */,
+				FC9B3CE820B188F300E760EE /* Bundle+Extensions.swift */,
+				FC95DF4520B2AF440087797F /* UIBarButton+Extensions.swift */,
+				FC95DF4720B2B5980087797F /* YCCustomBar.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -364,14 +373,17 @@
 			files = (
 				FC43D85520B173C300F218B3 /* UIViewController+CZAddition.m in Sources */,
 				FC43D85820B173C300F218B3 /* NSArray+Log.m in Sources */,
+				FC95DF4820B2B5980087797F /* YCCustomBar.swift in Sources */,
 				FC43D85B20B173C300F218B3 /* YCMessageViewController.swift in Sources */,
+				FC95DF4420B2A8890087797F /* YCDemoViewController.swift in Sources */,
 				FC43D84F20B173C300F218B3 /* UIScreen+CZAddition.m in Sources */,
 				FC43D85A20B173C300F218B3 /* YCDiscoverViewController.swift in Sources */,
 				FC43D85220B173C300F218B3 /* NSString+CZPath.m in Sources */,
+				FC95DF4620B2AF440087797F /* UIBarButton+Extensions.swift in Sources */,
 				FC43D85620B173C300F218B3 /* NSString+CZHash.m in Sources */,
 				FC43D85420B173C300F218B3 /* NSObject+CZRuntime.m in Sources */,
 				FC43D85E20B173C300F218B3 /* YCBaseVC.swift in Sources */,
-				FC9B3CE920B188F300E760EE /* Bundle-Extensions.swift in Sources */,
+				FC9B3CE920B188F300E760EE /* Bundle+Extensions.swift in Sources */,
 				FC43D81020B1724900F218B3 /* AppDelegate.swift in Sources */,
 				FC43D85D20B173C300F218B3 /* YCNavigationVC.swift in Sources */,
 				FC43D85320B173C300F218B3 /* UIButton+CZAddition.m in Sources */,
