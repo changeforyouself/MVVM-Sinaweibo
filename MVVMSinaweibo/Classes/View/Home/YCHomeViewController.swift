@@ -17,7 +17,7 @@ class YCHomeViewController: YCBaseVC {
     
     override func setupUI() {
         super.setupUI()
-        navItem.leftBarButtonItem = UIBarButtonItem.init(title: "测试", target: self, selector: #selector(buttonClick))
+        navItem.leftBarButtonItem = UIBarButtonItem.init(title: "首页", target: self, selector: #selector(buttonClick))
     }
     
     @objc private func buttonClick() {

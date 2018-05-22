@@ -13,7 +13,7 @@ class YCBaseVC: UIViewController {
     lazy var customBar:UINavigationBar = YCCustomBar()
     
     lazy var navItem = UINavigationItem()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -24,11 +24,12 @@ class YCBaseVC: UIViewController {
             navItem.title = title
         }
     }
-
-   @objc func setupUI() {
+    
+    @objc func setupUI() {
         view.backgroundColor = UIColor.cz_random()
         view.addSubview(customBar)
         customBar.items = [navItem]
+        customBar.barTintColor = UIColor.cz_color(withHex: 0xf6f6f6)
+        customBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.darkGray]
     }
-
 }
